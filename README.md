@@ -29,7 +29,7 @@ A high-visibility, full-screen batch-based network analysis and simulation utili
 3. Rename the file extension from `.txt` to `.bat` (e.g., `Project_Lag_Tester.bat`).
 4. **Important:** Right-click the file and select **Run as Administrator** (this permission level is required for full functionality, such as clearing local ARP mappings during a system purge).
 
-or you can just download the File as i should have each one with a .bat on the end - AND administrator ISNT needed, i was doing it without the administrator
+  P.S. Or you can just download the File as I should have add each one with a .bat on the end - AND administrator ISNT needed, i was doing it without the            administrator
 
 ---
 
