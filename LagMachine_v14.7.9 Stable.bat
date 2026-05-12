@@ -7,7 +7,7 @@ set "cfg_folder=%temp%\nmc_suite"
 if not exist "%cfg_folder%" mkdir "%cfg_folder%"
 set "theme_file=%cfg_folder%\theme.dat"
 set "skip_file=%cfg_folder%\skip.dat"
-set "git_url=github.com"
+set "git_url=https://github.com/r3v3nan1/Project-Lag-tester"
 set "z_h=30" & set "z_w=48"
 
 :: LOAD SYSTEM CONFIGS
