@@ -7,7 +7,7 @@ set "cfg_folder=%temp%\nmc_suite"
 if not exist "%cfg_folder%" mkdir "%cfg_folder%"
 set "theme_file=%cfg_folder%\theme.dat"
 set "skip_file=%cfg_folder%\skip.dat"
-set "git_url=https://github.com/r3v3nan1/Project-Lag-tester/tree/main"
+set "git_url=github.com"
 set "z_h=30" & set "z_w=48"
 
 :: LOAD SYSTEM CONFIGS
@@ -45,7 +45,7 @@ set "my_ip=%my_ip: =%" & set "my_gw=%my_gw: =%" & set "my_ssid=%my_ssid: =%" & s
 echo.
 echo  +-----------------------------------------------------------+
 echo  ^|             NETWORK MASTER CONTROL CENTER                 ^|
-echo  ^|             [ VERSION : 14.7.9 STABLE RETURN ]            ^|
+echo  ^|             [ VERSION : 14.7.9 STABLE PRO ]               ^|
 echo  +-----------------------------------------------------------+
 echo  ^|  IP      : %my_ip%                                        
 echo  ^|  GATEWAY : %my_gw%          SIGNAL    : %my_sig%           
@@ -70,8 +70,13 @@ echo      8. GITHUB REPOSITORY  ( Project-Lag-tester )
 echo.
 echo      9. EXIT PROGRAM
 echo.
-echo  +---[ ENGINE CONFIG STATUS ]--------------------------------+
-echo  ^| ALWAYS BOOT SKIP : %always_skip%                                 ^|
+echo  +---[ PROJECT DISCLAIMER / TERMS OF USE ]-------------------+
+echo  ^| This is supposed to be used to test network stability and ^|
+echo  ^| not for malicious uses. Report bugs to the GitHub repo.   ^|
+echo  ^| By using or pasting this code you agree that all actions   ^|
+echo  ^| are YOUR OWN FAULT and the creator is not responsible for ^|
+echo  ^| legal issues or punishments. USE AT YOUR OWN RISK.       ^|
+echo  ^| DO NOT CRASH WORKPLACE OR HOME NETWORKS INTERNET CORES.   ^|
 echo  +-----------------------------------------------------------+
 echo.
 set /p mode="  >> SELECT OPTION: "
@@ -169,7 +174,6 @@ ping -n 1 -w 1000 %t_ip%
 echo.
 echo  +-----------------------------------------------------------+
 
-:: FIXED KEYBOARD CAPTURE LOGIC
 choice /c CM /t 1 /d C /n >nul
 if errorlevel 2 (
     goto :MENU
@@ -203,5 +207,4 @@ echo.
 echo  [!] INFRASTRUCTURE NORMALIZED. RETURNING TO ENVIRONMENT...
 choice /c A /t 2 /d A /n >nul
 goto :MENU
-
 
