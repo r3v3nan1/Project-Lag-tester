@@ -36,7 +36,7 @@ A high-visibility, full-screen batch-based network analysis and simulation utili
 ## 📊 Version Status
 
 * **v14.7.9 STABLE PRO:** This is the primary stable production revision. All system logic, environment echo overrides, isolated loop boundaries, and menu shortcuts are fully debugged and operational.
-* **v14.8 Faster:** Newest version and runs faster and just spits out CMD without the slow loading process and is more convienent then 14.7.9 but could have potenital bugs as this was just made - report any bugs to issues tab in Github
+* **v14.8.1 Faster:** Newest version and runs faster and just spits out CMD without the slow loading process and is more convienent then 14.7.9 but could have potenital bugs as this was just made - report any bugs to issues tab in Github - suggested version as 14.7.9 is slower and uses more resources
 
 ---
 
